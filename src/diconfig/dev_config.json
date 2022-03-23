@@ -1,0 +1,210 @@
+{
+  "domain":{
+    "default": "//diweb.101bank.sh",
+    "line": "",
+    "pre":"",
+    "test":"",
+    "dev":""
+  },
+  "subApps": {
+    "1934": {
+      "name":"auth",
+      "activeRule":"/pedestal/authnew",
+      "entry":"/authnew",
+      "pages": {
+        "1937": {
+          "name": "用户管理",
+          "path": "/limitIndex/user"
+        },
+        "1938": {
+          "name": "菜单管理",
+          "path": "/limitIndex/func"
+        },
+        "1940": {
+          "name": "角色管理",
+          "path": "/limitIndex/role"
+        },
+        "1943": {
+          "name": "用户组管理",
+          "path": "/limitIndex/group"
+        }
+      }
+    },
+    "1939": {
+      "name":"auth",
+      "activeRule":"/pedestal/authnew",
+      "entry":"/authnew"
+    },
+    "1935": {
+      "name":"newstandard",
+      "activeRule":"/pedestal/newstandard",
+      "entry":"/newstandard",
+      "pages": {
+        "1941": {
+          "name": "标准词根",
+          "path": "/rootWord"
+        },
+        "1942": {
+          "name": "数据元属性管理",
+          "path": "/system-manage/dataProperty"
+        }
+      }
+    },
+    "1936": {
+      "name":"standard",
+      "activeRule":"/pedestal/standard",
+      "entry":"/standard",
+      "pages": {
+        "1944": {
+          "name": "数据集市",
+          "path": "/dataMarket"
+        },
+        "1945": {
+          "name": "主题域",
+          "path": "/categoryManage"
+        }
+      }
+    },
+    "1946": {
+      "name":"standard",
+      "activeRule":"/pedestal/standard",
+      "entry":"/standard",
+      "path":"/bizManage"
+    },
+    "1948": {
+      "name":"jwf",
+      "icons": "pedestal-icon-jd-process",
+      "activeRule":"/pedestal/jwf",
+      "entry":"/jwf",
+      "pages": {
+        "1949": {
+          "name": "流程申请",
+          "path": "/workflow/apply"
+        },
+        "1950": {
+          "name": "我的已办",
+          "path": "/workflow/done"
+        },
+        "1951": {
+          "name": "我的待办",
+          "path": "/workflow/todo"
+        },
+        "1952": {
+          "name": "流程列表",
+          "path": "/workflow/myCharge/charge"
+        }
+      }
+    },
+    "1947": {
+      "name":"jwf",
+      "icons": "pedestal-icon-jd-process",
+      "activeRule":"/pedestal/jwf",
+      "entry":"/jwf"
+    },
+    "1959": {
+      "name":"gaia",
+      "activeRule":"/pedestal/gaia",
+      "entry":"/gaia",
+      "pages": {
+        "1960": {
+          "name": "系统管理",
+          "path": "/system/index/config"
+        },
+        "1961": {
+          "name": "资源分配",
+          "path": "/assignments/index/queues"
+        }
+      }
+    },
+    "1914": {
+      "name":"galaxyoperation",
+      "activeRule":"/pedestal/galaxyoperation",
+      "entry":"/galaxyoperation/",
+      "pages": {
+        "1963": {
+          "name":"作业中心",
+          "path": "/base/operationCenter"
+        }
+      }
+    },
+    "1954": {
+      "name":"galaxymain",
+      "activeRule":"/pedestal/galaxymain",
+      "entry": "/galaxymain/",
+      "pages": {
+        "1964": {
+          "name":"数据建模",
+          "path": "/manage/modelManage"
+        },
+        "1965": {
+          "name":"数据统计",
+          "path": "/manage/modelStatistics"
+        }
+      }
+    },
+    "1966": {
+      "name": "galaxyintegration",
+      "activeRule": "/pedestal/galaxyintegration",
+      "entry": "/galaxyintegration/",
+      "pages": {
+        "1967": {
+          "name":"数据接入",
+          "path": "/integration/pipeList-extract"
+        },
+        "1968": {
+          "name":"数据推送",
+          "path": "/integration/pipeList-load"
+        }
+      }
+    },
+    "1971": {
+      "name": "agilebi",
+      "activeRule": "/pedestal/agilebi",
+      "entry": "/agilebi/",
+      "pages": {
+        "1987": {
+          "name":"我的大屏",
+          "path": "/main/myScreen"
+        },
+        "1988": {
+          "name":"我的报告",
+          "path": "/main/myReport"
+        }
+      }
+    },
+    "1969": {
+      "name":"turing",
+      "activeRule":"/pedestal/turing",
+      "entry":"/turing"
+    },
+    "1998": {
+      "name":"datafocus",
+      "activeRule":"/pedestal/datafocus",
+      "entry":"/datafocus",
+      "pages": {
+        "1999": {
+          "name":"指标管理",
+          "path": "interfaceList"
+        }
+      }
+    },
+    "2014": {
+      "name":"dataapi",
+      "activeRule":"/pedestal/dataapi",
+      "entry":"/dataapi/",
+      "pages": {
+        "2015": {
+          "name":"API开发",
+          "path": "/person_center/api_develop"
+        },
+        "2016": {
+          "name":"调用方管理",
+          "path": "/person_center/application_manage"
+        }
+      }
+    }
+  },
+  "platFormNode": {
+    "oneStopId": "64"
+  }
+}

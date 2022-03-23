@@ -1,0 +1,138 @@
+.el-button {
+  font-weight: 400;
+  padding: 11px 20px;
+  line-height: 16px;
+
+  span {
+    font-weight: normal;
+  }
+
+  &.el-button--text {
+    color: $linkColor;
+    padding: 0;
+    font-weight: 200;
+
+    &:hover {
+      color: #2071EC;
+    }
+  }
+
+  &.el-button--default {
+    min-width: 110px; // height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #237AFF;
+    border-radius: 6px;
+    color: #237AFF;
+
+    &:hover,
+    &:active {
+      background: rgba(35, 122, 255, 0.10);
+    }
+
+    &.is-disabled {
+      color: #C2C2C2;
+      border: 1px solid #C2C2C2;
+    }
+  }
+
+  &.el-button--primary {
+    min-width: 110px;
+    height: 40px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #237AFF;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: #2071EC;
+    }
+
+    &.is-disabled {
+      opacity: 0.6;
+      color: #FFFFFF;
+      background: #C2C2C2;
+      border-color: #C2C2C2;
+    }
+  }
+}
+
+
+/*----------------el-dialog样式重写--------------------*/
+
+// body .el-dialog__wrapper {
+//   -webkit-transform: translateZ(0);
+//   transform: translateZ(0);
+// }
+
+body .el-dialog,
+body .el-message-box {
+  //width: 516px;
+  border-radius: 10px;
+  margin-top: 100px;
+  background: #fff;
+  padding: 0;
+
+  .el-dialog__header,
+  .el-message-box__header {
+    text-align: left;
+    padding: 0 0 0 24px;
+    height: 48px;
+    border-bottom: 1px solid #ECF0F0;
+
+    .dialog-title-default,
+    .el-dialog__title,
+    .el-message-box__title {
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 48px;
+      color: #333;
+      text-indent: 10px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: inline-block;
+    }
+
+    .el-dialog__headerbtn {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      padding: 0;
+      background: 0 0;
+      border: none;
+      outline: 0;
+      cursor: pointer;
+      font-size: 24px;
+
+      .el-dialog__close {
+        color: #ADB6B6;
+      }
+    }
+  }
+
+  .el-dialog__body,
+  .el-message-box__content {
+    padding: 0 24px;
+    min-height: 120px;
+    max-height: 420px;
+    overflow-y: auto;
+    background: #FBFCFD;
+  }
+
+  .el-message-box__content {
+    display: flex;
+    align-items: center;
+  }
+
+  .el-dialog__footer,
+  .el-message-box__btns {
+    padding: 12px 24px 0; //
+    height: 64px;
+    border-top: 1px solid #ECF0F0;
+
+    .el-button.el-button--small {
+      height: 40px;
+    }
+  }
+}

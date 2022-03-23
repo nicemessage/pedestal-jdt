@@ -1,0 +1,637 @@
+{
+  "domain":{
+    "default": "//diweb.101bank.sh",
+    "line": "",
+    "pre":"",
+    "test":"",
+    "dev":""
+  },
+  "subApps": {
+    "2184": {
+      "label":"老数据标准",
+      "name":"standard",
+      "activeRule":"/pedestal/standard",
+      "entry":"/standard",
+      "pages": {
+        "2185": {
+          "name": "数据仓库",
+          "path": "/dataWarehouse"
+        },
+        "2186": {
+          "name": "数据集市",
+          "path": "/dataMarket"
+        },
+        "2187": {
+          "name": "主题域",
+          "path": "/categoryManage"
+        },
+        "2188": {
+          "name": "业务域",
+          "path": "/bizManage"
+        }
+      }
+    },
+    "2189": {
+      "label":"galaxy-数据模型-项目管理",
+      "name":"galaxymain",
+      "activeRule":"/pedestal/galaxymain",
+      "entry": "/galaxymain/",
+      "path": "/manage/modelManage"
+    },
+    "2190": {
+      "label":"银河ide",
+      "name":"ide",
+      "icons": "pedestal-icon-jd-process",
+      "activeRule":"/pedestal/ide",
+      "entry":"/ide",
+      "path":"/"
+    },
+    "2195": {
+      "label":"galaxy-作业管理",
+      "name":"galaxyoperation",
+      "activeRule":"/pedestal/galaxyoperation",
+      "entry":"/galaxyoperation/",
+      "pages": {
+        "2196": {
+          "name":"运维总览",
+          "path": "/base/operationMonitoring"
+        },
+        "2197": {
+          "name":"离线任务运维",
+          "path": "/base/operationCenter"
+        }
+      }
+    },
+    "2198": {
+      "label":"新数据标准",
+      "name":"newstandard",
+      "activeRule":"/pedestal/newstandard",
+      "entry":"/newstandard",
+      "pages": {
+        "2199": {
+          "name": "标准词根",
+          "path": "/rootWord"
+        }
+      }
+    },
+    "1892": {
+      "name":"turing",
+      "activeRule":"/pedestal/turing",
+      "entry":"/turing"
+    },
+    "1681": {
+      "label":"导览页",
+      "name":"markete",
+      "activeRule":"/pedestal/markete",
+      "entry":"/markete",
+      "path":"/guide"
+    },
+    "2221": {
+      "label":"运营后台",
+      "name":"markete",
+      "activeRule":"/pedestal/markete",
+      "entry":"/markete",
+      "pages": {
+        "2222": {
+          "name":"场景配置",
+          "path": "/guideConfig"
+        }
+      }
+    },
+    "1700": {
+      "label":"新数据标准",
+      "name":"newstandard",
+      "activeRule":"/pedestal/newstandard",
+      "entry":"/newstandard",
+      "pages": {
+        "1708": {
+          "name": "标准词根",
+          "path": "/rootWord"
+        },
+        "1709": {
+          "name": "业务术语",
+          "path": "/business"
+        },
+        "1710": {
+          "name": "标准码值",
+          "path": "/code"
+        },
+        "1734": {
+          "name": "数据元标准",
+          "path": "/dataElement"
+        },
+        "1735": {
+          "name": "标准文档管理",
+          "path": "/file"
+        },
+        "1711": {
+          "name": "数据元属性管理",
+          "path": "/system-manage/dataProperty"
+        }
+      }
+    },
+    "1719": {
+      "label":"权限系统",
+      "name":"auth",
+      "icons": "pedestal-icon-jd-author",
+      "activeRule":"/pedestal/authnew",
+      "entry":"/authnew",
+      "pages": {
+        "1720": {
+          "name": "用户管理",
+          "path": "/limitIndex/user"
+        },
+        "1721": {
+          "name": "用户组管理",
+          "path": "/limitIndex/group"
+        },
+        "1723": {
+          "name": "角色管理",
+          "path": "/limitIndex/role"
+        },
+        "1724": {
+          "name": "菜单管理",
+          "path": "/limitIndex/func"
+        }
+      }
+    },
+    "1725": {
+      "label":"流程中心",
+      "name":"jwf",
+      "icons": "pedestal-icon-jd-process",
+      "activeRule":"/pedestal/jwf",
+      "entry":"/jwf",
+      "pages": {
+        "2246": {
+          "name": "模板管理",
+          "path": "/workflow/templateManage"
+        },
+        "2247": {
+          "name": "模板管理",
+          "path": "/workflow/deployManage"
+        },
+        "2248": {
+          "name": "流程配置",
+          "path": "/sys/dict"
+        },
+        "1726": {
+          "name": "流程申请",
+          "path": "/workflow/apply"
+        },
+        "1728": {
+          "name": "我的申请",
+          "path": "/workflow/myapply"
+        },
+        "1729": {
+          "name": "我的待办",
+          "path": "/workflow/todo"
+        },
+        "1730": {
+          "name": "我的已办",
+          "path": "/workflow/done"
+        },
+        "1731": {
+          "name": "我的移交",
+          "path": "/workflow/myTransfer/transfer"
+        },
+        "1732": {
+          "name": "流程列表",
+          "path": "/workflow/myCharge/charge"
+        },
+        "1733": {
+          "name": "我的代理人",
+          "path": "/sys/myagent"
+        }
+      }
+    },
+    "2233": {
+      "label":"数仓规划",
+      "name":"standard",
+      "activeRule":"/pedestal/standard",
+      "entry":"/standard",
+      "pages": {
+        "2236": {
+          "name": "数据仓库",
+          "path": "/dataWarehouse"
+        },
+        "2237": {
+          "name": "数据集市",
+          "path": "/dataMarket"
+        },
+        "2234": {
+          "name": "主题域",
+          "path": "/categoryManage"
+        },
+        "2235": {
+          "name": "业务线管理",
+          "path": "/bizManage"
+        }
+      }
+    },
+    "1688": {
+      "label":"数据开发-银河ide",
+      "name":"ide",
+      "icons": "pedestal-icon-jd-process",
+      "activeRule":"/pedestal/ide",
+      "entry":"/ide",
+      "path":"/"
+    },
+    "1684": {
+      "label":"galaxy-数据源-数据管道",
+      "name": "galaxyintegration",
+      "activeRule": "/pedestal/galaxyintegration",
+      "entry": "/galaxyintegration/",
+      "pages": {
+        "2238": {
+          "name":"数据源管理",
+          "path": "/integration/dataSourceManage"
+        },
+        "1685": {
+          "name":"数据接入",
+          "path": "/integration/pipeList-extract"
+        },
+        "1686": {
+          "name":"数据推送",
+          "path": "/integration/pipeList-load"
+        }
+      }
+    },
+    "2239": {
+      "label":"项目管理",
+      "name": "galaxymain",
+      "activeRule": "/pedestal/galaxymain",
+      "entry": "/galaxymain/",
+      "pages": {
+        "2241": {
+          "name":"数据模型",
+          "path": "/manage/modelManage"
+        },
+        "2243": {
+          "name":"全部项目",
+          "path": "/manage/projectManage"
+        },
+        "2244": {
+          "name":"我的项目",
+          "path": "/manage/projectManageMe"
+        }
+      }
+    },
+    "1697": {
+      "label":"galaxy-作业管理",
+      "name":"galaxyoperation",
+      "activeRule":"/pedestal/galaxyoperation",
+      "entry":"/galaxyoperation/",
+      "pages": {
+        "1698": {
+          "name":"运维总览",
+          "path": "/base/operationMonitoring"
+        },
+        "1699": {
+          "name":"离线任务运维",
+          "path": "/base/operationCenter"
+        }
+      }
+    },
+    "1702": {
+      "name":"map",
+      "icons": "pedestal-icon-jd-process",
+      "activeRule":"/pedestal/map",
+      "entry":"/map",
+      "path":"/know_retrieval"
+    },
+    "1975": {
+      "label":"galaxy-资源管理",
+      "name":"gaia",
+      "activeRule":"/pedestal/gaia",
+      "entry":"/gaia",
+      "pages": {
+        "1976": {
+          "name": "文件目录权限",
+          "path": "/authorization/file_directory"
+        },
+        "1984": {
+          "name": "资源分配",
+          "path": "/assignments/index"
+        },
+        "1985": {
+          "name": "集群定义",
+          "path": "/clusters/definition"
+        },
+        "1986": {
+          "name": "库表权限",
+          "path": "/authorization/database_table"
+        }
+      }
+    },
+    "1841": {
+      "label":"agile-portal",
+      "name":"agileportal",
+      "activeRule": "/pedestal/agileportal",
+      "entry": "/agileportal/",
+      "path":"/main/myPortal?i=0"
+    },
+    "1872": {
+      "label":"agile-portal-群组管理",
+      "name":"agileportal",
+      "activeRule": "/pedestal/agileportal",
+      "entry": "/agileportal/",
+      "path": "/main/ManageMenu/group"
+    },
+    "platform_77": {
+      "label":"agile-BI（把子项目挂载到平台上了）",
+      "name": "agilebi",
+      "activeRule": "/pedestal/agilebi",
+      "entry": "/agilebi/",
+      "pages": {
+        "1847": {
+          "name":"分析图表",
+          "path": "/main/mychart"
+        },
+        "1848": {
+          "name":"数据看板",
+          "path": "/main/myDashBoard"
+        },
+        "1849": {
+          "name":"数据大屏",
+          "path": "/main/myScreen"
+        },
+        "1850": {
+          "name":"分析报告",
+          "path": "/main/myReport"
+        },
+        "1853": {
+          "name":"我的分享",
+          "path": "/main/myShare"
+        },
+        "1992": {
+          "name":"本地数据源",
+          "path": "/main/localData"
+        },
+        "1993": {
+          "name":"Mysql数据源",
+          "path": "/main/mySQL"
+        },
+        "1994": {
+          "name":"Hive数据源",
+          "path": "/main/hive"
+        },
+        "1995": {
+          "name":"我的数据集",
+          "path": "/main/mineData"
+        },
+        "1997": {
+          "name":"共享数据集",
+          "path": "/main/allData"
+        },
+        "1863": {
+          "name":"数据集权限配置",
+          "path": "/main/dataSetEmpowerment"
+        },
+        "1865": {
+          "name":"图表权限配置",
+          "path": "/main/chartAuth"
+        },
+        "1866": {
+          "name":"看板权限配置",
+          "path": "/main/dashboardAuth"
+        },
+        "1867": {
+          "name":"工作空间转让",
+          "path": "/main/spaceTransfer"
+        },
+        "1868": {
+          "name":"用户标签管理",
+          "path": "/main/tagAuth"
+        },
+        "1876": {
+          "name":"订阅管理",
+          "path": "/main/subscribe"
+        },
+        "1879": {
+          "name":"下载管理",
+          "path": "/main/downloadList"
+        },
+        "1882": {
+          "name":"图片管理",
+          "path": "/main/pictureManage"
+        },
+        "1877": {
+          "name":"URL挂出管理",
+          "path": "/main/urlManage"
+        }
+      }
+    },
+    "1989": {
+      "label":"linkout",
+      "name": "linkout",
+      "activeRule": "/pedestal/linkout",
+      "entry": "/linkout",
+      "pages": {
+        "1990": {
+          "name":"test1",
+          "path": "/test1"
+        },
+        "1991": {
+          "name":"test2",
+          "path": "/test2"
+        }
+      }
+    },
+    "platform_76": {
+      "label":"data-api（把子项目挂载到平台上了）",
+      "name": "dataapi",
+      "activeRule": "/pedestal/dataapi",
+      "entry": "/dataapi/",
+      "pages": {
+        "1736": {
+          "name":"API市场",
+          "path": "/api_market/market_list"
+        },
+        "2021": {
+          "name":"租户管理",
+          "path": "/person_center/tenement_manage"
+        },
+        "2022": {
+          "name":"公告管理",
+          "path": "/person_center/newsManage"
+        },
+        "2032": {
+          "name":"租户管理",
+          "path": "/platform_manage/tenementManage"
+        },
+        "2033": {
+          "name":"API分类管理",
+          "path": "/platform_manage/api_category_manage"
+        },
+        "2034": {
+          "name":"反馈建议管理",
+          "path": "/platform_manage/feedbackManage"
+        },
+        "2035": {
+          "name":"公告管理",
+          "path": "/platform_manage/newsManage"
+        },
+        "2036": {
+          "name":"权限管理",
+          "path": "/platform_manage/permission_manage"
+        },
+        "2037": {
+          "name":"API管理",
+          "path": "/platform_manage/api"
+        },
+        "2023": {
+          "name":"应用表管理",
+          "path": "/person_center/app_table_manage"
+        },
+        "2024": {
+          "name":"用户数据源",
+          "path": "/person_center/data_source_manage"
+        },
+        "2025": {
+          "name":"API开发",
+          "path": "/person_center/api_develop"
+        },
+        "2026": {
+          "name":"调用方管理",
+          "path": "/person_center/application_manage"
+        },
+        "2104": {
+          "name":"项目列表",
+          "path": "/link_out/projectList"
+        },
+        "2105": {
+          "name":"接口分类",
+          "path": "/link_out/interfaceClass"
+        },
+        "2106": {
+          "name":"接口管理",
+          "path": "/link_out/interfaceAdmin"
+        },
+        "2107": {
+          "name":"配置化接口",
+          "path": "/link_out/configInterface"
+        },
+        "2108": {
+          "name":"业务号管理",
+          "path": "/link_out/businessAdmin"
+        },
+        "2109": {
+          "name":"实名业务号管理",
+          "path": "/link_out/IdAuthBusiness"
+        },
+        "2110": {
+          "name":"业务号接口关系管理",
+          "path": "/link_out/businessInterManage"
+        },
+        "2112": {
+          "name":"单笔查询",
+          "path": "/link_out/singleSearch"
+        },
+        "2113": {
+          "name":"实时查询量统计图",
+          "path": "/link_out/queryQuantity"
+        },
+        "2114": {
+          "name":"查询量统计表",
+          "path": "/link_out/queryTable"
+        },
+        "2115": {
+          "name":"数据清理",
+          "path": "/link_out/dataClear"
+        },
+        "2116": {
+          "name":"操作日志列表",
+          "path": "/link_out/operation_log"
+        },
+        "2117": {
+          "name":"文档中心",
+          "path": "/link_out/fileCenter"
+        },
+        "2118": {
+          "name":"批量任务",
+          "path": "/dataCollect/dispatch_manage"
+        },
+        "2119": {
+          "name":"任务控制台",
+          "path": "/dataCollect/dispatch_log"
+        }
+      }
+    },
+    "platform_84": {
+      "label":"data-focus（把子项目挂载到平台上了）",
+      "name": "datafocus",
+      "activeRule": "/pedestal/datafocus",
+      "entry": "/datafocus/",
+      "pages": {
+        "2000": {
+          "name":"指标市场",
+          "path": "/indexMarketList"
+        },
+        "2002": {
+          "name":"指标管理",
+          "path": "/interfaceList"
+        },
+        "2003": {
+          "name":"维度管理",
+          "path": "/dimensionList"
+        },
+        "2005": {
+          "name":"指标报警",
+          "path": "/indicatorAlarm"
+        },
+        "2006": {
+          "name":"需求管理",
+          "path": "/demand"
+        },
+        "2007": {
+          "name":"数据源管理",
+          "path": "/realTimeTabelManege"
+        },
+        "2009": {
+          "name":"权限管理",
+          "path": "/Authority"
+        },
+        "2010": {
+          "name":"业务大类管理",
+          "path": "/businessCategory"
+        },
+        "2011": {
+          "name":"指标分类管理",
+          "path": "/indexClassification"
+        },
+        "2013": {
+          "name":"指标标签管理",
+          "path": "/indexLabel"
+        },
+        "2012": {
+          "name":"业务大类管理（经分）",
+          "path": "/JFbusinessCategory"
+        }
+      }
+    },
+    "1955": {
+      "label":"galaxy-数据质量",
+      "name": "galaxymain",
+      "activeRule": "/pedestal/galaxymain",
+      "entry": "/galaxymain/",
+      "pages": {
+        "1956": {
+          "name":"监控任务",
+          "path": "/manage/dataQuality-monitorTask"
+        },
+        "1957": {
+          "name":"问题管理",
+          "path": "/manage/dataQuality-qualityQuestion"
+        },
+        "1958": {
+          "name":"规则模板配置",
+          "path": "/manage/dataQuality-rulemouldManage"
+        }
+      }
+    }
+  },
+  "platFormNode": {
+    "oneStopId": "74",
+    "basicServiceId":"75"
+  }
+}

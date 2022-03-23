@@ -1,0 +1,317 @@
+
+/*--------------------el-container样式重置---------------------*/
+.el-container {
+  overflow-y: auto;
+}
+
+/*--------------------el-main样式重置---------------------*/
+.el-main {
+  padding: 0;
+}
+
+/*--------------------el-header样式重置---------------------*/
+//.el-header {
+//  padding: 0 !important;
+//  height: 65px !important;
+//  background-color: #141832;
+//}
+
+/*--------------------el-menu样式重置---------------------*/
+.el-menu {
+  border: none !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/*--------------------el-form样式重置---------------------*/
+.el-form {
+  .el-form-item {
+    margin-bottom: 18px;
+    .el-form-item__label {
+      font-size: 12px;
+    }
+    .el-cascader {
+      width: 100%;
+    }
+  }
+}
+
+/*--------------------el-button样式重置---------------------*/
+.el-button {
+  border-radius: 4px;
+}
+.el-button--default, .el-button--primary, .el-button--plain  {
+  min-width: 88px;
+}
+
+/*--------------------el-dialog样式重置---------------------*/
+/*--------------------el-dialog样式重置---------------------*/
+.el-dialog {
+  border-radius: 6px;
+  .el-dialog__header {
+    position: relative;
+    margin: 0 30px;
+    height: 60px;
+    padding: 0;
+    border-bottom: 1px solid var(--color-primary-root);
+    font-size: 14px;
+    font-weight: 500;
+    color: #303030;
+    line-height: 76px;
+    .el-dialog__headerbtn {
+      top: 18px;
+      right: -12px;
+      .el-dialog__close {
+        color: #fff;
+        height: 24px;
+        width: 24px;
+        line-height: 24px;
+        border-radius: 50%;
+        background: #C1CFDA;
+      }
+    }
+  }
+  .el-dialog__title {
+    margin-left: 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .el-dialog__body {
+    padding: 30px;
+  }
+  .el-dialog__footer {
+    padding: 30px;
+    padding-top: 10px;
+  }
+}
+/*--------------------el-message-box样式重置---------------------*/
+.el-message-box {
+  //min-width: 686px;
+  border-radius: 6px;
+  width: 550px;
+  padding: 0px;
+  .el-message-box__header {
+    border-bottom: 1px solid var(--color-primary-root);
+    position: relative;
+    margin: 0 30px;
+    height: 60px;
+    padding: 0;
+    .el-message-box__title {
+      font-size: 14px;
+      line-height: 76px;
+      color: #000000;
+    }
+    .el-message-box__headerbtn {
+      top: 18px;
+      right: -12px;
+      .el-message-box__close {
+        color: #fff;
+        height: 24px;
+        width: 24px;
+        line-height: 24px;
+        border-radius: 50%;
+        background: #C1CFDA;
+      }
+    }
+  }
+  .el-message-box__content {
+    padding: 0px;
+    .el-message-box__status {
+      display: none;
+    }
+    .el-message-box__container {
+      padding: 30px;
+    }
+    .el-message-box__message {
+      padding: 0px;
+    }
+  }
+  .el-message-box__btns {
+    padding: 0px 30px 30px;
+    direction: rtl;
+    button:nth-child(2) {
+      margin-right: 10px;
+      margin-left: 0px;
+    }
+  }
+}
+
+/*--------------------el-drawer样式重置---------------------*/
+.el-drawer {
+  .el-drawer__header {
+    margin-bottom: 0 !important;
+    padding: 10px 0;
+    border-bottom:1px solid var(--color-primary-root);
+    box-shadow: 0 -5px 5px -5px #999;
+    background-color: #ffffff;
+    margin: 0 40px;
+  }
+
+  .el-drawer__body {
+    overflow: auto;
+    height: 100%;
+  }
+}
+.drawer-wrap .drawer-wrap-title .title-centent {
+  font-size: 14px !important;
+}
+/*--------------------el-table样式重置---------------------*/
+.el-table {
+  color:#303030;
+  // 修改表格表头文字颜色，大小，表头背景色
+  //.el-table__header th.el-table__cell{
+  //  font-size: 13px;
+  //  color: #000000;
+  //  background-color: #F9F9F9;
+  //}
+  .el-table__row {
+    font-size: 12px;
+  }
+  .cell {
+    .el-button--text, .el-button--text:hover, .el-button--text:focus {
+      color: #2695f1!important;
+    }
+  }
+}
+
+// .el-table th:nth-child(1) > .cell {
+//   padding-left: 14px;
+// }
+
+.el-table__fixed-right{
+  box-shadow: 0 0 10px #F1F4FA;
+}
+/*--------------------图标重置---------------------*/
+// 问号
+.el-icon-question {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #409eff;
+  cursor: pointer;
+}
+
+// tooltip 最大宽度
+.el-tooltip__popper {
+  max-width: 30% !important;
+}
+/*--------------------el-tabs样式重置---------------------*/
+//
+// .el-tabs--card > .el-tabs__header .el-tabs__nav {
+//   border: none;
+// }
+// .el-tabs__item {
+//   font-size: 12px;
+//   font-weight: normal;
+//   color: rgba(48, 48, 48, 1);
+//   background: rgba(244, 244, 244, 1);
+//   margin-right: 5px;
+//   border: none;
+// }
+// .el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
+//   font-weight: 500;
+//   color: rgba(255, 255, 255, 1);
+//   background: rgba(242, 39, 12, 1);
+// }
+/*--------------------  el-radio样式重置  ---------------------*/
+
+
+
+
+
+.el-form-item__label{
+  color: #303030;
+}
+
+.el-drawer .el-drawer__header {
+  //padding-top: 45px;
+}
+
+
+
+
+
+/*--------------------  复选框  ---------------------*/
+.el-checkbox {
+  .el-checkbox__input.is-checked .el-checkbox__inner {
+    background-color: #fff;
+    border-color: #EBEEF5;
+  }
+  .el-checkbox__input.is-focus .el-checkbox__inner {
+    border-color: #EBEEF5;
+  }
+  .el-checkbox__inner::after {
+    border: 1px solid var(--color-primary-root);
+    border-left: 0;
+    border-top: 0;
+  }
+}
+//级联菜单
+
+.el-cascader-panel {
+  font-size: 12px;
+}
+.el-cascader-node.is-active {
+  font-weight: normal;
+}
+
+//分页
+.pagina-wraper {
+  * {
+    font-size: 12px !important;
+  }
+}
+// 按钮
+.operate-wraper {
+  .el-button--default {
+    &.el-button:hover, &.el-button:focus {
+      border-color: #DCDFE6;
+      background-color: #fff;
+    }
+  }
+}
+
+.el-dropdown-menu__item:not(.is-disabled):hover, .el-dropdown-menu__item:focus {
+  background: transparent
+}
+
+// ---------------------------- tree中的 文本按钮  -------------------
+
+
+.el-tree {
+  color:#303030;
+  .el-button--text, .el-button--text:hover, .el-button--text:focus {
+    color: #2695f1!important;
+  }
+}
+
+// confirm 确认框，按钮互换
+.cancel-confirm-btn{
+  float: right;
+  margin-left: 10px;
+}
+
+
+// 分页 下拉菜单
+$font12: 12px;
+.el-select-dropdown.el-popper .el-select-dropdown__item{
+  font-size: $font12;
+}
+
+
+.el-pagination{
+  span, button{
+    font-size: $font12;
+  }
+  .el-pagination__total{
+    font-size: $font12;
+  }
+  .el-pager li{
+    font-size: $font12;
+  }
+  .el-pagination__sizes .el-input .el-input__inner{
+    font-size: $font12;
+  }
+}
+.page-wrap {
+  text-align: right;
+}

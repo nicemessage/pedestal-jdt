@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 55</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-55">
+            <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="34" height="34"></rect>
+            <g id="编组-3" transform="translate(0.000000, 4.500000)" fill="#F2270C">
+                <path d="M0,9 C2.76142375,9 5,11.2385763 5,14 L5,25 L5,25 L0,25 L0,9 Z" id="矩形"></path>
+                <path d="M0,0 L8.5,0 C15.4035594,-1.26816328e-15 21,5.59644063 21,12.5 C21,19.4035594 15.4035594,25 8.5,25 L0,25 L0,20 L8.5,20 C12.6421356,20 16,16.6421356 16,12.5 C16,8.35786438 12.6421356,5 8.5,5 L8.5,5 L0,5 L0,0 Z" id="形状结合"></path>
+                <rect id="矩形备份-16" x="21" y="20" width="5" height="5"></rect>
+                <rect id="矩形备份-17" x="29" y="0" width="5" height="25"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
